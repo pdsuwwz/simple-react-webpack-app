@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "./build",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
+  }
+}
