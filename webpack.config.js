@@ -4,6 +4,9 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = (env, argv) => ({
   mode: argv.mode || 'development',
   devtool: argv.mode !== 'production' ? 'inline-source-map' : false,
+  optimization: {
+    minimize: false
+  },
 
   entry: './src/index.tsx',
   module: {
